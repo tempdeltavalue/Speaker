@@ -13,6 +13,7 @@
 		CE8BC64E262D53FF00847142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8BC64C262D53FF00847142 /* Main.storyboard */; };
 		CE8BC650262D540000847142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8BC64F262D540000847142 /* Assets.xcassets */; };
 		CE8BC653262D540000847142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8BC651262D540000847142 /* LaunchScreen.storyboard */; };
+		CE8BC65C262DB26F00847142 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BC65B262DB26F00847142 /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE8BC64F262D540000847142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8BC652262D540000847142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8BC654262D540000847142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8BC65B262DB26F00847142 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE8BC64F262D540000847142 /* Assets.xcassets */,
 				CE8BC651262D540000847142 /* LaunchScreen.storyboard */,
 				CE8BC654262D540000847142 /* Info.plist */,
+				CE8BC65B262DB26F00847142 /* SpeechRecognizer.swift */,
 			);
 			path = Speaker;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8BC64B262D53FF00847142 /* ViewController.swift in Sources */,
+				CE8BC65C262DB26F00847142 /* SpeechRecognizer.swift in Sources */,
 				CE8BC647262D53FF00847142 /* AppDelegate.swift in Sources */,
 				CE8BC649262D53FF00847142 /* SceneDelegate.swift in Sources */,
 			);
